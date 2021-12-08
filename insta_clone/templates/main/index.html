@@ -76,10 +76,7 @@
                                 <p class="text-monospace ml-3"><small>{{image.name}}</small></p>
                             </a>
                         </div>
-                        <div class="dots">
-                            <a href="#" data-toggle="modal" data-target="#{{image.id}}"><i
-                                    class="fas fa-ellipsis-h"></i></a>
-                        </div>
+                        
                     </div>
                     <div class="card-header">
                         <img src="{{image.image.url}}" alt="" class="card-img">
@@ -94,16 +91,6 @@
                             </div>
                             <div class="ml-3">
                                 <a href="{% url 'allcomments' image_id=image.id %}"><i class="far fa-comment"></i></a>
-                            </div>
-                            <div class="ml-3">
-
-                                <a href="#"><i><img src="/static/img/instagram-share.png" alt="" width="18"
-                                            height="18"></i></a>
-
-                            </div>
-
-                            <div class="book">
-                                <img src="https://img.icons8.com/material-sharp/24/000000/bookmark-ribbon.png" />
                             </div>
 
                         </div>
