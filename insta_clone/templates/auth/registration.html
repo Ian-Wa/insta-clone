@@ -33,6 +33,11 @@
 
 <div class="container">
     <div class="row">
+        <div class="col-md-6">
+            <img src="{% static 'img/insta6.png' %}" alt="instagram" width="40%" height="40%" class="D-block mx-auto">
+        </div>
+        
+        
         <div class="col-md-4 border">
             <form action="" method="POST">
                 {% csrf_token %}
@@ -55,15 +60,7 @@
             <div class="border-top pt-3 text-center">
                 <small class="text-muted">Have an account? <a href="" class="ml-2">Log in</a></small>
             </div>
-
-            <div class="border-top pt-3 text-center">
-                <p>Get this app</p>
-            </div>
-            <div id="flex" class="pl-2 pt-3 mt-3">
-                <img src="{% static 'img/insta1.png' %}" alt="" height="50" width="180">
-                <img src="{% static 'img/insta2.png' %}" alt="" height="50">
-
-            </div>
+            
         </div>
 
         <div class="col-md-4">
