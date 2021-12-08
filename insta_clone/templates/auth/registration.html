@@ -33,11 +33,11 @@
 </style>
 
 <div class="container">
-    <div class="row ml-5">
-        <div class="col-md-4 mr-5">
-            <img src="{% static 'img/insta6.png'%}" alt="Instagram">
+    <div class="row">
+        <div class="col-md-4">
+            
         </div>
-        <div class="col-md-4 border ml-5">
+        <div class="col-md-4 border mt-4">
             <form action="" method="POST">
                 {% csrf_token %}
 
@@ -54,9 +54,10 @@
                 <div class="form-group">
                     <button class="btn btn-info" type="submit">Sign Up</button>
                 </div>
+                
             </form>
             <div class="border-top pt-3 text-center">
-                <small class="text-muted">Have an account? <a href="" class="ml-2">Log in</a></small>
+                <small class="text-muted">Have an account? <a href="{% url 'login' %}" class="ml-2">Log in</a></small>
             </div>
         </div>
 

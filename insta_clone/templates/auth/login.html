@@ -1,4 +1,4 @@
-{% extends 'auth/base.html' %}
+{% extends 'main/base.html' %}
 {% load crispy_forms_tags %}
 {% load static %}
 {% block content %}
@@ -52,16 +52,10 @@
                 <div class="form-group">
                     <button class="btn btn-info" type="submit">Log In</button>
                 </div>
-                <div class="form-group text-center prim">
-                    <p><img src="https://img.icons8.com/material-sharp/24/000000/facebook.png" />Log in with Facebook
-                    </p>
-                </div>
-                <div class="form-group text-center prim">
-                    <p>Forgot Password?</p>
-                </div>
+               
             </form>
             <div class="border-top pt-3 text-center">
-                <small class="text-muted">Don't have an account? <a href="" class="ml-2">Sign
+                <small class="text-muted">Don't have an account? <a href="{% url 'register'%}" class="ml-2">Sign
                         up</a></small>
             </div>
             
