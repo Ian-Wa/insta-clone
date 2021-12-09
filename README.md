@@ -34,3 +34,21 @@ To get the code..
         * Note that you can exit the virtual environment by running the command **`deactivate`**
 4. Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
 5. Launch the application locally by running the command **`python manage.py runserver`** and copying the link given on the termnal on your browser.
+
+## Technology used
+
+* Python3.8
+* Django==3.2.9
+* Heroku
+* Html
+* Css
+* Javascript
+* Bootstrap4
+
+## Known Bugs
+
+There are no known bugs currently but if you come across one feel free to contact me.
+
+## Contact
+
+For queries reach me through [Ian.wanjira@student.moringaschool.com](ian.wanjira@student.moringaschool.com)
